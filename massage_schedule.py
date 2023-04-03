@@ -1,3 +1,5 @@
+#NOT LEECODE PROBLEM#
+
 def massage_schedule(n, m, p, r, b):
     # 建立客人列表，每個客人有服務時間、預約時間、編號和營收
     customers = [(p[i], r[i], i, b[i]) for i in range(n)]
